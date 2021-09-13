@@ -1,16 +1,5 @@
 /*imports*/
 @font-face {
-  font-family: titillium web;
+  font-family: 'Titillium Web', sans-serif;
   src: url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Play:wght@400;700&family=Titillium+Web:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
-  
-}
-h1 {
- color: #000000;
- font: italic 200% fantasy;
-}
-p {
- background-color: #FFFFFF;
- color: #000000;
- 
- border: 3px groove #FFFF33;
 }
