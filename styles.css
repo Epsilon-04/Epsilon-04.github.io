@@ -5,11 +5,16 @@
 
 
 body {
-  font-family: 'Titillium Web';
+  font-family: 'Titillium Web', bold;
   background-color: #FFFFFF;
 }
 
 h1 {
   color: red;
-  margin-left: 20px;
+  font weight: bold;
+}
+
+p {
+  color: red;
+  font-family: 'Titillium Web', sans-serif;
 }
