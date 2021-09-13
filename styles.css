@@ -3,3 +3,12 @@
   font-family: 'Titillium Web', sans-serif;
   src: url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Play:wght@400;700&family=Titillium+Web:wght@400;700&family=Ubuntu:wght@400;700&display=swap);
 }
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+p {
+  color: red;
+}
