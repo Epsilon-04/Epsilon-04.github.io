@@ -10,6 +10,7 @@ body {
 }
 
 h1 {
+  font-family: 'Titillim Web', bold;
   color: red;
   font-weight: bold;
 }
