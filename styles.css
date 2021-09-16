@@ -13,9 +13,11 @@ h1 {
   font-family: 'Titillim Web', bold;
   color: White;
   font-weight: bold;
+  font-size: 24px
 }
 
 p {
   color: lightgray;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 16px
 }
