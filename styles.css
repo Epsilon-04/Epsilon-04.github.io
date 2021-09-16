@@ -11,11 +11,11 @@ body {
 
 h1 {
   font-family: 'Titillim Web', bold;
-  color: red;
+  color: White;
   font-weight: bold;
 }
 
 p {
-  color: black;
+  color: lightgray;
   font-family: 'Titillium Web', sans-serif;
 }
