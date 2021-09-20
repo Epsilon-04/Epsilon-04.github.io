@@ -5,13 +5,13 @@
 
 
 body {
-  font-family: 'Titillium Web', bold;
+  font-family: 'Titillium Web', sans-serif, bold;
   background-color: #ce2029;
   font-weight: bold;
 }
 
 h1 {
-  font-family: 'Titillium Web', bold;
+  font-family: 'Titillium Web', sans-serif, bold;
   color: White;
   font-weight: bold;
   font-size: 35px;
