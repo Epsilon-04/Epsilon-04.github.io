@@ -1,33 +1,62 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  
+<html>
+  <body>
 <head>
-    <title>
-        How to Change Image on 
-        Hover in CSS
-    </title>
-      
-    <style>
-       a.button {
-   display: -moz-inline-stack;
-   display: inline-block;
-   width: 391px;
-   height: 62px;
-   background: url("homecsc106red.png") no-repeat;
-   line-height: 62px;
-   vertical-align: text-middle;
-   text-align: center;
-   color: #ebe6eb;
-   font-family: Zenhei;
-   font-size: 39px;
-   font-weight: normal;
-   font-style: normal;
-   text-shadow: #222222 1px 1px 0;
-}
-a.button:hover{
-     background: #383;
-}
-</body>
+<style>
+
+  <head>
+        .sudo {
+              width:150px;
+              height:35px;
+              margin:50px;
+            background-image: url(
+"homecsc106red.png");
+        }
   
+        .sudo:hover {
+            background-image: url(
+"homecsc106.png");
+  }
+  </head>
+   <div class="sudo"></div>
+  
+  
+  
+  * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Images Side by Side</h2>
+<p>How to create side-by-side images with the CSS float property:</p>
+
+<div class="row">
+  <div class="column">
+        <a href="tree.html"><img src="homecsc106red.png" alt="Snow" style="width:100%">
+</a>
+  </div>
+  <div class="column">
+    <img src="javascriptcsc106red.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="aboutmecsc106red.png" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+</body>
 </html>
