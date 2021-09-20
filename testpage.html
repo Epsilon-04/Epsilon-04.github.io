@@ -1,62 +1,46 @@
 <!DOCTYPE html>
 <html>
   <body>
-<head>
-<style>
+    <style>
+.button
+{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 auto;
+	width: 15%;
+	padding: 8px;
+	border: 2px solid;
+	border-color: #e7dd84;
+	background-color: rgba(206,32,41,0.2);
+	transition: 0.35s;
 
-  <head>
-        .sudo {
-              width:150px;
-              height:35px;
-              margin:50px;
-            background-image: url(
-"homecsc106red.png");
-        }
-  
-        .sudo:hover {
-            background-image: url(
-"homecsc106.png");
-  }
-  </head>
+}
+.button a, active
+{
+	text-decoration: none;
+	color: #e7dd84;
 
-  
-  
-  
-  * {
-  box-sizing: border-box;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.button:hover a
+{
+	text-decoration: none;
+	color: black;
+
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.button:hover
+{
+	color: black;
+	background-color: white;
+	border-color: white;
+	transition: 0.35s;
 }
-</style>
-</head>
-<body>
+    </style>
+<div class="button">
+		<a href="first.html">Go to site</a>
+	</div>
 
-<h2>Images Side by Side</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
-
-<div class="row">
-  <div class="column">
-        <a href="tree.html"><img src="homecsc106red.png" alt="Snow" style="width:100%">
-</a>
-  </div>
-  <div class="column">
-    <img src="javascriptcsc106red.png" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="aboutmecsc106red.png" alt="Mountains" style="width:100%">
-  </div>
-</div>
-   <div class="sudo"></div>
+  
 </body>
 </html>
