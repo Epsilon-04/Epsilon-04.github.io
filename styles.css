@@ -7,17 +7,20 @@
 body {
   font-family: 'Titillium Web', bold;
   background-color: #ce2029;
+  font-weight: bold;
 }
 
 h1 {
   font-family: 'Titillim Web', bold;
   color: White;
   font-weight: bold;
-  font-size: 24px
+  font-size: 30px;
+  font-weight: bold;
 }
 
 p {
   color: lightgray;
   font-family: 'Titillium Web', sans-serif, bold;
-  font-size: 25px
+  font-size: 25px;
+  font-weight: bold;
 }
