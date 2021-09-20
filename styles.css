@@ -6,20 +6,20 @@
 
 body {
   font-family: 'Titillium Web', sans-serif, bold;
-  background-color: #ce2029;
+  background-color: #CE2029;
   font-weight: bold;
 }
 
 h1 {
   font-family: 'Titillium Web', sans-serif, bold;
-  color: White;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 35px;
   font-weight: bold;
 }
 
 p {
-  color: lightgray;
+  color: #FFFFFF;
   font-family: 'Titillium Web', sans-serif, bold;
   font-size: 25px;
   font-weight: bold;
